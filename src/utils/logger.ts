@@ -1,8 +1,8 @@
-import winston from "winston";
-
+import * as winston from "winston";
 const logger = winston.createLogger({
     format: winston.format.json(),
-    level: "info" // TODO: accept this from env,
+    level: "info",
+    transports: [new winston.transports.Console()]
 });
 
 export default logger;
