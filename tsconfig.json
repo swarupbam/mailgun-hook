@@ -1,16 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "es2015",
-      "lib": ["DOM","es2015"],
-      "types": ["reflect-metadata"],
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "allowSyntheticDefaultImports": true,
-      "sourceMap": true,
-      "declaration": false
-    },
-    "exclude": ["node_modules"]
-  }
-  
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "declaration": false,
+    "pretty": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
