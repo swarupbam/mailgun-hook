@@ -1,0 +1,21 @@
+{
+    "db": {
+        "name": "",
+        "host": "",
+        "userName": "",
+        "password": "",
+        "port": "3306",
+        "dialect": "mysql"
+    },
+    "aws": {
+        "region": "",
+        "accessKey": "",
+        "secretAccessKey": "",
+        "sns":{
+            "apiVersion": "2010-03-31",
+            "topicName": "",
+            "arn": ""
+        }
+    },
+    "logLevel": "info"
+}
