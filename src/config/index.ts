@@ -85,10 +85,6 @@ export class ResourceLoader {
         return this.snsClient;
     }
 
-    public static async closeDatabaseConnection() {
-        return await this.sequelizeClient.close();
-    }
-
     public static async bootstrap(): Promise<void> {
         try {
             ResourceLoader.disableConnectionPool();

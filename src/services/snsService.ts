@@ -1,12 +1,12 @@
-import * as Aws from "aws-sdk";
 import { ResourceLoader } from "../config";
 import { EventData, MessageHeader, SnsMessage } from "../utils/interface";
 import logger from "../utils/logger";
+import * as Aws from "aws-sdk";
 
 class SnsService {
     private snsClient: Aws.SNS;
-    constructor(snsClinet?: Aws.SNS) {
-        this.snsClient = snsClinet || ResourceLoader.getSnsClient();
+    constructor(snsClinet: Aws.SNS) {
+        this.snsClient = snsClinet;
     }
 
     public pushEvent(eventData: EventData): Promise<undefined> {
