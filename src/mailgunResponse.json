@@ -1,0 +1,53 @@
+"signature": {
+    "timestamp": "1587275651",
+    "token": "05c9b483525227e22d0c83b29ccf5f884f791c869bf9cb59e2",
+    "signature": "440d61004873c2d67482c77c7cba2f7996199b2e5995b60d1c64aa7fd19e271c"
+},
+"event-data": {
+    "tags": [],
+    "timestamp": 1587275639.380335,
+    "storage": {
+        "url": "https://sw.api.mailgun.net/v3/domains/sandbox490203653bd54e52b56e9097d94665b4.mailgun.org/messages/AgEFixKG4mq7eXSadHRMWa46W4XJ7OZhZA==",
+        "key": "AgEFixKG4mq7eXSadHRMWa46W4XJ7OZhZA=="
+    },
+    "recipient-domain": "gmail.com",
+    "id": "w2pZBO5aQqW_JkQu558Wnw",
+    "campaigns": [],
+    "user-variables": {},
+    "flags": {
+        "is-routed": false,
+        "is-authenticated": true,
+        "is-system-test": false,
+        "is-test-mode": false
+    },
+    "log-level": "info",
+    "envelope": {
+        "sending-ip": "198.61.254.60",
+        "sender": "mailgun@sandbox490203653bd54e52b56e9097d94665b4.mailgun.org",
+        "transport": "smtp",
+        "targets": "swarupbam@gmail.com"
+    },
+    "message": {
+        "headers": {
+            "to": "swarupbam@gmail.com",
+            "message-id": "20200419055340.1.2690B335FED6E358@sandbox490203653bd54e52b56e9097d94665b4.mailgun.org",
+            "from": "mailgun@sandbox490203653bd54e52b56e9097d94665b4.mailgun.org",
+            "subject": "attachment test"
+        },
+        "attachments": [],
+        "size": 628
+    },
+    "recipient": "swarupbam@gmail.com",
+    "event": "delivered",
+    "delivery-status": {
+        "tls": true,
+        "mx-host": "gmail-smtp-in.l.google.com",
+        "attempt-no": 1,
+        "description": "",
+        "session-seconds": 9.311168909072876,
+        "utf8": true,
+        "code": 250,
+        "message": "OK",
+        "certificate-verified": true
+    }
+}
